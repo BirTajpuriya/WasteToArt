@@ -63,7 +63,7 @@
 
     <div class='artcontainer'>
     <?php
-    $sql = "select product.*,category.category from product, category where product.category_id=category.id ";
+    $sql = "select * from product where status = 1 ";
     $res = mysqli_query($conn, $sql);
     while ($row = mysqli_fetch_assoc($res)) { 
     ?>
@@ -78,7 +78,7 @@
         <div class='listing'>
         <div class='listingImage'>
             <a href='./artdetail.php?id=$id'>
-                <img src='../../users/images/".$image."' class='listImg' alt='Rooms Near Me'>
+                <img src='../../scrap_users/images/".$image."' class='listImg' alt='Rooms Near Me'>
             </a>
         </div>
 

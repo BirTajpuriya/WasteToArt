@@ -44,7 +44,7 @@
         <div class="midnav">
             <ul class="navitem">
                 <li><a href=index.php>HOME</a></li>
-                <li><a href="../pages/artshop.php">ART GLLERY</a></li>
+                <li><a href="../pages/artshop.php">ART GALLERY</a></li>
                 <li><a href="../pages/scrapshop.php">SCRAP SHOP</a></li>
             </ul>
         </div>

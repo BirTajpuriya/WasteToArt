@@ -63,7 +63,7 @@ $res = mysqli_query($conn, $sql);
                               <th>Seller</th>
                               <th>Categories</th>
                               <th>Name</th>
-                              <th>image</th>
+                              <!-- <th>image</th> -->
                               <th>Price</th>
                               <th>Qty</th>
                               <th>featured art</th>
@@ -82,7 +82,6 @@ $res = mysqli_query($conn, $sql);
                                  <td><?php echo $row['seller_name'] ?></td>
                                  <td><?php echo $row['category'] ?></td>
                                  <td><?php echo $row['name'] ?></td>
-                                 <td><img src="../users/images/<?php echo $row['image'] ?>" width="200" height="60" alt=""></td>
                                  <td><?php echo $row['price'] ?></td>
                                  <td><?php echo $row['qty'] ?></td>
                                  <td><?php
