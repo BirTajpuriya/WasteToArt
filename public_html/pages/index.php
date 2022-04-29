@@ -35,18 +35,18 @@
                     <label class="label">Type:</label>
                     <select class="select2" name="flocation">
                         <option selected value="*">ART</option>
-                        <option value="Kathmandu">Kathmandu</option>
-                        <option value="Biratnagar">Biratnagar</option>
-                        <option value="Pokhara">Pokhara</option>
+                        <option value="Kathmandu">Metal</option>
+                        <option value="Biratnagar">Plastic</option>
+                        <option value="Pokhara">Wooden</option>
                     </select>
                 </div>
 
                 <div class="formSelect1">
                     <label class="label">Catagory:</label>
                     <select class="select2" name="fstatus">
-                        <option selected value="*">METAL</option>
-                        <option value="For Rent">PLASTIC</option>
-                        <option value="For Sale">WOOD</option>
+                        <option selected value="*">Decor</option>
+                        <option value="For Rent">Electric</option>
+                        <option value="For Sale">Sketch</option>
                     </select>
                 </div>
 

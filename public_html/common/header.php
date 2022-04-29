@@ -52,9 +52,9 @@
             <ul class="navitem">';
             if(!$loggedin){
               echo '  <li><a href="../login/login.php">LOGIN</a></li>
-              <li><a href="../../admin/category.php">ADMIN</a></li>
+              
               ';
-
+            //   <li><a href="../../admin/category.php">ADMIN</a></li>
             }
                  if($loggedin){
                    echo '<li><a href="../../subscription/index.php">SUBSCRIPTIONS</a></li>';

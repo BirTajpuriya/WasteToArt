@@ -29,10 +29,10 @@
             <div class="formSelect1">
                 <label class="label">Type:</label>
                 <select class="select2" name="flocation">
-                    <option selected value="*">ART</option>
-                    <option value="Kathmandu">Kathmandu</option>
-                    <option value="Biratnagar">Biratnagar</option>
-                    <option value="Pokhara">Pokhara</option>
+                    <option selected value="*">SCRAP</option>
+                    <option value="Kathmandu">Metal</option>
+                    <option value="Biratnagar">Plastic</option>
+                    <option value="Pokhara">Wooden</option>
                 </select>
             </div>
 

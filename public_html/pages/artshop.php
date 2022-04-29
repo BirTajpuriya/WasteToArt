@@ -30,9 +30,9 @@
                 <label class="label">Type:</label>
                 <select class="select2" name="flocation">
                     <option selected value="*">ART</option>
-                    <option value="Kathmandu">Kathmandu</option>
-                    <option value="Biratnagar">Biratnagar</option>
-                    <option value="Pokhara">Pokhara</option>
+                    <option value="Kathmandu">Metal</option>
+                    <option value="Biratnagar">Plastic</option>
+                    <option value="Pokhara">Wooden</option>
                 </select>
             </div>
 
@@ -63,7 +63,7 @@
 
     <div class='artcontainer'>
     <?php
-    $sql = "select product.*,category.category from product, category where product.category_id=category.id";
+    $sql = "select * from product where status = 0";
     $res = mysqli_query($conn, $sql);
     while ($row = mysqli_fetch_assoc($res)) { 
     ?>
